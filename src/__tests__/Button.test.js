@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 import {
-  NativeBaseProvider, Text
+  NativeBaseProvider, Button
 } from 'native-base';
 
-describe('Testing Content', () => {
+describe('<Button />', () => {
   const { queryByTestId } = render(
     <NativeBaseProvider
       initialWindowMetrics={{
@@ -12,11 +12,11 @@ describe('Testing Content', () => {
         insets: { top: 0, left: 0, right: 0, bottom: 0 },
       }}
     >
-      <Text testID="my-text">hello world</Text>
+      <Button testID="my-button">Test</Button>
     </NativeBaseProvider>
   )
-  it('renders text inside content', () => {
-    expect(queryByTestId('my-text')).not.toBeNull()
+  it('should render button component properly', () => {
+    expect(queryByTestId('my-button')).not.toBeNull()
   });
 
 })
