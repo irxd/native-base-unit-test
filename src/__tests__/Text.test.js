@@ -15,9 +15,9 @@ describe('<Text />', () => {
       >
         <Text testID="my-text">hello world</Text>
       </NativeBaseProvider>
-    )
+    );
 
-    expect(queryByTestId('my-text')).not.toBeNull()
+    expect(queryByTestId('my-text')).not.toBeNull();
   });
 
   it('should render text props properly', () => {
@@ -30,7 +30,7 @@ describe('<Text />', () => {
       >
         <Text testID="my-text" fontWeight="bold" color="white">hello world</Text>
       </NativeBaseProvider>
-    )
+    );
     
     expect(queryByTestId('my-text').props.style.fontWeight).toMatch('700');
     expect(queryByTestId('my-text').props.style.color).toMatch('#FFFFFF');
