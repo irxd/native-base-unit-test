@@ -5,7 +5,7 @@ import {
 } from 'native-base';
 
 describe('<Radio />', () => {
-  const { queryByTestId } = render(
+  const { queryByTestId, toJSON } = render(
     <NativeBaseProvider
       initialWindowMetrics={{
         frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -27,6 +27,7 @@ describe('<Radio />', () => {
   )
   it('should render radio component properly', () => {
     expect(queryByTestId('my-radio')).not.toBeNull()
+    expect(toJSON()).toMatchSnapshot();
   });
 
 })

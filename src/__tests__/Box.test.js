@@ -21,7 +21,7 @@ describe('<Box />', () => {
   });
 
   it('should render box props properly', () => {
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -35,5 +35,6 @@ describe('<Box />', () => {
     expect(queryByTestId('my-box').props.style.backgroundColor).toMatch('#FFFFFF');
     expect(queryByTestId('my-box').props.style.borderColor).toMatch('#000000');
     expect(queryByTestId('my-box').props.style.marginBottom).toEqual(16);
+    expect(toJSON()).toMatchSnapshot();
   });
 });

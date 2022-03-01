@@ -21,7 +21,7 @@ describe('<Divider />', () => {
   });
 
   it('should render divider props properly', () => {
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -34,5 +34,6 @@ describe('<Divider />', () => {
 
     expect(queryByTestId('my-divider').props.style.backgroundColor).toMatch('#000000');
     expect(queryByTestId('my-divider').props.style.height).toEqual(2);
+    expect(toJSON()).toMatchSnapshot();
   });
 });

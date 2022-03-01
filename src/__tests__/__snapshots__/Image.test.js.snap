@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should render image props properly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    accessibilityLabel="Alternate Text"
+    alt="Alternate Text"
+    dataSet={Object {}}
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://wallpaperaccess.com/full/317501.jpg",
+      }
+    }
+    style={
+      Object {
+        "height": 500,
+        "maxWidth": "100%",
+        "width": 500,
+      }
+    }
+    testID="my-image"
+  />
+</RNCSafeAreaProvider>
+`;

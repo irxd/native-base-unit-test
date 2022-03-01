@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> should render radio component properly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  >
+    <View
+      accessibilityLabel="Pick your favorite number"
+      accessibilityRole="radiogroup"
+      accessibilityState={
+        Object {
+          "disabled": undefined,
+        }
+      }
+      dataSet={Object {}}
+      defaultValue="1"
+      name="myRadioGroup"
+      style={
+        Object {
+          "alignItems": "flex-start",
+        }
+      }
+      testID="my-radio"
+    >
+      <View
+        accessibilityRole="radio"
+        accessibilityState={
+          Object {
+            "checked": true,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        checked={true}
+        collapsable={false}
+        dataSet={Object {}}
+        focusable={true}
+        formControlContext={Object {}}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        state={
+          Object {
+            "isDisabled": false,
+            "isReadOnly": false,
+            "lastFocusedValue": null,
+            "name": "myRadioGroup",
+            "selectedValue": "1",
+            "setLastFocusedValue": [Function],
+            "setSelectedValue": [Function],
+          }
+        }
+        style={
+          Object {
+            "marginBottom": 4,
+            "marginTop": 4,
+          }
+        }
+        value="1"
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 9999,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginBottom": 4,
+              "marginTop": 4,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "borderColor": "#0891b2",
+                  "borderRadius": 9999,
+                  "height": "100%",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                  "position": "absolute",
+                  "width": "100%",
+                  "zIndex": -1,
+                }
+              }
+            />
+            <View
+              colorScheme="primary"
+              dataSet={Object {}}
+              defaultIsChecked={false}
+              formControlContext={Object {}}
+              state={
+                Object {
+                  "isDisabled": false,
+                  "isReadOnly": false,
+                  "lastFocusedValue": null,
+                  "name": "myRadioGroup",
+                  "selectedValue": "1",
+                  "setLastFocusedValue": [Function],
+                  "setSelectedValue": [Function],
+                }
+              }
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fafafa",
+                  "borderColor": "#0891b2",
+                  "borderRadius": 9999,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "paddingBottom": 2,
+                  "paddingLeft": 2,
+                  "paddingRight": 2,
+                  "paddingTop": 2,
+                }
+              }
+              value="1"
+            >
+              <RNSVGSvgView
+                accessibilityRole="image"
+                align="xMidYMid"
+                bbHeight={12}
+                bbWidth={12}
+                color={4278751666}
+                dataSet={Object {}}
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                stroke=""
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "color": "#0891b2",
+                      "height": 12,
+                      "opacity": 1,
+                      "width": 12,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 12,
+                      "width": 12,
+                    },
+                  ]
+                }
+                tintColor={4278751666}
+                vbHeight={24}
+                vbWidth={24}
+              >
+                <RNSVGGroup
+                  opacity={1}
+                  propList={
+                    Array [
+                      "stroke",
+                    ]
+                  }
+                  stroke={null}
+                >
+                  <RNSVGGroup>
+                    <RNSVGPath
+                      d="M 12, 12 m -9, 0 a 9,9 0 1,0 18,0 a 9,9 0 1,0 -18,0"
+                      fill={
+                        Array [
+                          2,
+                        ]
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                          "stroke",
+                        ]
+                      }
+                      stroke={null}
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#000000",
+                "fontFamily": undefined,
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 24,
+                "marginLeft": 8,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            First
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityRole="radio"
+        accessibilityState={
+          Object {
+            "checked": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        checked={false}
+        collapsable={false}
+        dataSet={Object {}}
+        focusable={true}
+        formControlContext={Object {}}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        state={
+          Object {
+            "isDisabled": false,
+            "isReadOnly": false,
+            "lastFocusedValue": null,
+            "name": "myRadioGroup",
+            "selectedValue": "1",
+            "setLastFocusedValue": [Function],
+            "setSelectedValue": [Function],
+          }
+        }
+        style={
+          Object {
+            "marginBottom": 4,
+            "marginTop": 4,
+          }
+        }
+        value="2"
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 9999,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginBottom": 4,
+              "marginTop": 4,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "borderRadius": 9999,
+                  "height": "100%",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                  "position": "absolute",
+                  "width": "100%",
+                  "zIndex": -1,
+                }
+              }
+            />
+            <View
+              colorScheme="primary"
+              dataSet={Object {}}
+              defaultIsChecked={false}
+              formControlContext={Object {}}
+              state={
+                Object {
+                  "isDisabled": false,
+                  "isReadOnly": false,
+                  "lastFocusedValue": null,
+                  "name": "myRadioGroup",
+                  "selectedValue": "1",
+                  "setLastFocusedValue": [Function],
+                  "setSelectedValue": [Function],
+                }
+              }
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fafafa",
+                  "borderColor": "#d4d4d4",
+                  "borderRadius": 9999,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "paddingBottom": 2,
+                  "paddingLeft": 2,
+                  "paddingRight": 2,
+                  "paddingTop": 2,
+                }
+              }
+              value="2"
+            >
+              <RNSVGSvgView
+                accessibilityRole="image"
+                align="xMidYMid"
+                bbHeight={12}
+                bbWidth={12}
+                color={4278751666}
+                dataSet={Object {}}
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                stroke=""
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "color": "#0891b2",
+                      "height": 12,
+                      "opacity": 0,
+                      "width": 12,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 12,
+                      "width": 12,
+                    },
+                  ]
+                }
+                tintColor={4278751666}
+                vbHeight={24}
+                vbWidth={24}
+              >
+                <RNSVGGroup
+                  opacity={0}
+                  propList={
+                    Array [
+                      "stroke",
+                    ]
+                  }
+                  stroke={null}
+                >
+                  <RNSVGGroup>
+                    <RNSVGPath
+                      d="M 12, 12 m -9, 0 a 9,9 0 1,0 18,0 a 9,9 0 1,0 -18,0"
+                      fill={
+                        Array [
+                          2,
+                        ]
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                          "stroke",
+                        ]
+                      }
+                      stroke={null}
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#000000",
+                "fontFamily": undefined,
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 24,
+                "marginLeft": 8,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Second
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityRole="radio"
+        accessibilityState={
+          Object {
+            "checked": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        checked={false}
+        collapsable={false}
+        dataSet={Object {}}
+        focusable={true}
+        formControlContext={Object {}}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        state={
+          Object {
+            "isDisabled": false,
+            "isReadOnly": false,
+            "lastFocusedValue": null,
+            "name": "myRadioGroup",
+            "selectedValue": "1",
+            "setLastFocusedValue": [Function],
+            "setSelectedValue": [Function],
+          }
+        }
+        style={
+          Object {
+            "marginBottom": 4,
+            "marginTop": 4,
+          }
+        }
+        value="3"
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 9999,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "marginBottom": 4,
+              "marginTop": 4,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "borderRadius": 9999,
+                  "height": "100%",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                  "position": "absolute",
+                  "width": "100%",
+                  "zIndex": -1,
+                }
+              }
+            />
+            <View
+              colorScheme="primary"
+              dataSet={Object {}}
+              defaultIsChecked={false}
+              formControlContext={Object {}}
+              state={
+                Object {
+                  "isDisabled": false,
+                  "isReadOnly": false,
+                  "lastFocusedValue": null,
+                  "name": "myRadioGroup",
+                  "selectedValue": "1",
+                  "setLastFocusedValue": [Function],
+                  "setSelectedValue": [Function],
+                }
+              }
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fafafa",
+                  "borderColor": "#d4d4d4",
+                  "borderRadius": 9999,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "justifyContent": "center",
+                  "paddingBottom": 2,
+                  "paddingLeft": 2,
+                  "paddingRight": 2,
+                  "paddingTop": 2,
+                }
+              }
+              value="3"
+            >
+              <RNSVGSvgView
+                accessibilityRole="image"
+                align="xMidYMid"
+                bbHeight={12}
+                bbWidth={12}
+                color={4278751666}
+                dataSet={Object {}}
+                focusable={false}
+                meetOrSlice={0}
+                minX={0}
+                minY={0}
+                stroke=""
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    Object {
+                      "color": "#0891b2",
+                      "height": 12,
+                      "opacity": 0,
+                      "width": 12,
+                    },
+                    Object {
+                      "flex": 0,
+                      "height": 12,
+                      "width": 12,
+                    },
+                  ]
+                }
+                tintColor={4278751666}
+                vbHeight={24}
+                vbWidth={24}
+              >
+                <RNSVGGroup
+                  opacity={0}
+                  propList={
+                    Array [
+                      "stroke",
+                    ]
+                  }
+                  stroke={null}
+                >
+                  <RNSVGGroup>
+                    <RNSVGPath
+                      d="M 12, 12 m -9, 0 a 9,9 0 1,0 18,0 a 9,9 0 1,0 -18,0"
+                      fill={
+                        Array [
+                          2,
+                        ]
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                          "stroke",
+                        ]
+                      }
+                      stroke={null}
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGSvgView>
+            </View>
+          </View>
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#000000",
+                "fontFamily": undefined,
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 24,
+                "marginLeft": 8,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Third
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -26,7 +26,7 @@ describe('<Image />', () => {
   });
 
   it('should render image props properly', () => {
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -46,5 +46,6 @@ describe('<Image />', () => {
     expect(queryByTestId('my-image').props.source.uri).toMatch("https://wallpaperaccess.com/full/317501.jpg");
     expect(queryByTestId('my-image').props.style.width).toEqual(500);
     expect(queryByTestId('my-image').props.style.height).toEqual(500);
+    expect(toJSON()).toMatchSnapshot();
   });
 });

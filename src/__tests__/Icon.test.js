@@ -27,7 +27,7 @@ describe('<Icon />', () => {
   });
 
   it('should render icon props properly', () => {
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -40,5 +40,6 @@ describe('<Icon />', () => {
     
     expect(queryByTestId('my-icon').props.style[1].backgroundColor).toMatch('#000000');
     expect(queryByTestId('my-icon').props.style[1].color).toMatch('#FFFFFF');
+    expect(toJSON()).toMatchSnapshot();
   });
 });

@@ -21,7 +21,7 @@ describe('<Text />', () => {
   });
 
   it('should render text props properly', () => {
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -34,5 +34,6 @@ describe('<Text />', () => {
     
     expect(queryByTestId('my-text').props.style.fontWeight).toMatch('700');
     expect(queryByTestId('my-text').props.style.color).toMatch('#FFFFFF');
+    expect(toJSON()).toMatchSnapshot();
   });
 });

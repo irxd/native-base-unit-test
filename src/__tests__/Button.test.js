@@ -39,7 +39,7 @@ describe('<Button />', () => {
   it('button event should working properly', () => {
     const onPressEvent = jest.fn();
 
-    const { queryByTestId } = render(
+    const { queryByTestId, toJSON } = render(
       <NativeBaseProvider
         initialWindowMetrics={{
           frame: { x: 0, y: 0, width: 0, height: 0 },
@@ -52,5 +52,6 @@ describe('<Button />', () => {
 
     fireEvent.press(queryByTestId('my-button'));
     expect(onPressEvent).toHaveBeenCalled();
+    expect(toJSON()).toMatchSnapshot();
   });
 });
