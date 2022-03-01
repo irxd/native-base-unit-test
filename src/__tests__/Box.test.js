@@ -36,5 +36,4 @@ describe('<Box />', () => {
     expect(queryByTestId('my-box').props.style.borderColor).toMatch('#000000');
     expect(queryByTestId('my-box').props.style.marginBottom).toEqual(16);
   });
-
-})
+});

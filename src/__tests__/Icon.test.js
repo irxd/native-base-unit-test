@@ -41,4 +41,4 @@ describe('<Icon />', () => {
     expect(queryByTestId('my-icon').props.style[1].backgroundColor).toMatch('#000000');
     expect(queryByTestId('my-icon').props.style[1].color).toMatch('#FFFFFF');
   });
-})
+});

@@ -35,4 +35,4 @@ describe('<Text />', () => {
     expect(queryByTestId('my-text').props.style.fontWeight).toMatch('700');
     expect(queryByTestId('my-text').props.style.color).toMatch('#FFFFFF');
   });
-})
+});

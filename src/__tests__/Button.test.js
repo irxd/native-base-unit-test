@@ -53,4 +53,4 @@ describe('<Button />', () => {
     fireEvent.press(queryByTestId('my-button'));
     expect(onPressEvent).toHaveBeenCalled();
   });
-})
+});
