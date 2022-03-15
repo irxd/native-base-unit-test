@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<View /> should render view props properly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    _text={
+      Object {
+        "color": "darkText",
+      }
+    }
+    dataSet={Object {}}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#000000",
+        "marginBottom": 16,
+      }
+    }
+    testID="my-view"
+  >
+    Test View
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`<View /> view event should working properly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    _text={
+      Object {
+        "color": "darkText",
+      }
+    }
+    dataSet={Object {}}
+    onPress={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#000000",
+        "marginBottom": 16,
+      }
+    }
+    testID="my-view"
+  >
+    Test View
+  </View>
+</RNCSafeAreaProvider>
+`;
