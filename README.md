@@ -4,6 +4,7 @@
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Text | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | - | <span style="color:green">Passed</span> | 
 | Box | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | - | <span style="color:green">Passed</span> | 
+| View | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | 
 | Button | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | 
 | Image | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | <span style="color:green">Passed</span> | 
 | Icon | <span style="color:green">Passed</span> | <span style="color:green">Passed</span> | - | - | <span style="color:green">Passed</span> | 
